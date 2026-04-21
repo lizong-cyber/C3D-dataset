@@ -28,7 +28,4 @@ To ensure the rigor of dataset usage and the generalization ability of downstrea
 - **Validation Set**: The continuous time window data after the training set is selected specifically for hyperparameter selection and threshold calibration.
 - **Test Set**: The latest time window data from each site is selected for final performance evaluation.
 
-## 4. Data Usage Declaration and Release Constraints
-Since the C3D image data, BIM-related annotations, and VOC records derived from the ERP contain highly commercially sensitive information and privacy-constrained content, the complete end-to-end dataset cannot be publicly released without restrictions at present.
-- Third-party verification and reproduction must be based on strictly controlled data access permissions.
-- The anti-leakage evaluation protocol and multi-modal annotation paradigm established by the dataset provide a standardized auditing and testing paradigm for application-level evaluations in the future "BIM + Deep Learning" field.
+
